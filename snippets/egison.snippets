@@ -1,0 +1,28 @@
+snippet main
+	(define $main
+		(lambda [$args]
+			${1}))
+snippet def
+	(define $${1} ${2})
+snippet let
+	(let {[${1}] ${2}} ${3})
+snippet let*
+	(let* {[${1}] ${2}} ${3})
+snippet letr
+	(letrec {[${1}] ${2}} ${3})
+snippet mat
+	(match ${1} (${2})
+		{[${3}] ${4}})
+snippet mata
+	(match-all ${1} (${2})
+		[${3}])
+snippet join
+	<join ${1} ${2}>
+snippet cons
+	<cons ${1} ${2}>
+snippet snoc
+	<snoc ${1} ${2}>
+snippet nioj
+	<nioj ${1} ${2}>
+snippet map
+	(map (${1}) ${2})
